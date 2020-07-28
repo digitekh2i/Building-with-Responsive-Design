@@ -71,17 +71,25 @@
 }
 
 .section-1-1 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/kodak-796x448.jpg");
+    background-size: cover;
     border: 1px solid yellow;
     column-count: 2fr;
     grid-gap: 2px;
 }
 
 .section-1-2 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/CES-2021-796x417.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     border: 1px solid tomato;
     grid-column: 1fr;
 }
 
 .section-1-3 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/deepfake-ai-voice-celebrities-politicians-796x417.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     border: 1px solid mediumspringgreen;
     column-count: 1fr;
 }
@@ -107,6 +115,16 @@
     color: rgb(255, 86, 34);
     font-size: 28px;
     font-weight: 700;
+}
+
+.link-2 {
+    text-decoration: none;
+    color: rgb(255, 86, 34);
+    font-size: 14px;
+    height: 31px;
+    margin-top: 30px;
+    margin-right: 23px;
+    margin-bottom: 0;
 }
 
 .f1-grid {
@@ -153,4 +171,21 @@
     font-weight: 700;
     text-align: left;
     line-height: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f2-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.f2 {
+    width: 294px;
+    height: 288px;
+    border: 1px solid black;
 }
