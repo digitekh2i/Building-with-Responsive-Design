@@ -155,7 +155,7 @@
     font-weight: 700;
     letter-spacing: -0.84px;
     lighting-color: 12px;
-    color: darkolivegreen;
+    color: #fff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     gap: normal;
     position: relative;
@@ -165,7 +165,7 @@
 
 .section1-2-heading-title-link {
     text-decoration: none;
-    color: red;
+    color: #fff;
     position: relative;
     top: 130px;
     font-weight: lighter;
@@ -507,15 +507,27 @@
 }
 
 .linear-gradient {
-    background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+    background: rgba(250, 0, 0, .25) url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
     background-size: 100% 100%;
-    height: 540px;
+    height: 544px;
 }
 
 .linear-gradient-1 {
     background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
     background-size: 100% 100%;
-    height: 276px;
+    height: 278px;
+}
+
+.linear-gradient-2 {
+    background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+    background-size: 100% 100%;
+    height: 270px;
+}
+
+.linear-gradient-3 {
+    background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+    background-size: 100% 100%;
+    height: 270px;
 }
 
 .f3-img-text h3 {
@@ -743,3 +755,6 @@
 .f4-price2 {
     color: rgb(85, 85, 85);
 }
+
+
+/* media querys */
