@@ -65,7 +65,7 @@
 .section-1 {
     border: 1px solid blue;
     display: grid;
-    height: 450px;
+    height: 475px;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
 }
@@ -73,9 +73,70 @@
 .section-1-1 {
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/kodak-796x448.jpg");
     background-size: cover;
-    border: 1px solid yellow;
     column-count: 2fr;
     grid-gap: 2px;
+}
+
+.section1-1-heading {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.84px;
+    lighting-color: 12px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: normal;
+    position: relative;
+    top: 40px;
+}
+
+.section1-1-heading-date {
+    color: #fff;
+    font-size: 17px;
+    float: right;
+    font-family: Georgia;
+    margin-right: 11px;
+    position: relative;
+    top: 1px;
+}
+
+.section1-1-heading-title-link {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 85px;
+    font-weight: bold;
+}
+
+.section1-flex-column {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 150px;
+    padding: 5px;
+}
+
+.flexglue {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.title-deets {
+    color: #595959;
+    text-decoration: none;
+}
+
+.title-deets-link {
+    text-decoration: none;
+    color: #595959;
+    margin: 3px;
+}
+
+.icon-style {
+    position: relative;
+    top: 5px;
+    margin-right: 4px;
+    margin-left: 2px;
 }
 
 .section-1-2 {
@@ -100,8 +161,13 @@
     grid-template-rows: 1fr 1fr;
 }
 
+#tnw-logo {
+    width: 20%;
+    height: 1%;
+}
 
-/* manin container */
+
+/* main container */
 
 .main-container {
     width: auto;
@@ -187,5 +253,244 @@
 .f2 {
     width: 294px;
     height: 288px;
-    border: 1px solid black;
+    border: 1px solid transparent;
+}
+
+.align {
+    position: relative;
+    top: 0;
+    height: 287px;
+}
+
+.f2 a {
+    text-decoration: none;
+}
+
+.f2-title {
+    background-color: rgb(255, 68, 34);
+    color: white;
+    width: 270px;
+    height: 39px;
+    font-size: 18px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+    top: -25px;
+}
+
+.f2-img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    z-index: 10;
+}
+
+.f2 a {
+    position: relative;
+    display: black;
+}
+
+.f2-seccontainer {
+    background-color: rgba(255, 68, 34, 0.08);
+    width: 270px;
+    height: 45px;
+    font-size: 14px;
+    line-height: 21px;
+    position: absolute;
+    top: 50px;
+}
+
+.f2-text1 {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 100px;
+    position: absolute;
+    top: -18px;
+}
+
+.f2-text2 {
+    text-decoration: none;
+    color: #000;
+    padding-left: 100px;
+}
+
+.f2-a2 {
+    background-color: rgb(246, 243, 243);
+    width: 270px;
+    height: 81px;
+    margin-top: -1px;
+}
+
+.f2-a3 {
+    background-color: rgb(246, 243, 243);
+    width: 270px;
+    height: 87px;
+    font-size: 12px;
+    line-height: 20px;
+    border-top: 1px solid rgb(255, 68, 34);
+}
+
+.f2-icon {
+    width: 16px;
+    height: 16px;
+    padding-left: 15px;
+}
+
+.f2-txtalign {
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.flex-1 {
+    display: flex;
+}
+
+.f2-textarea {
+    margin-left: 17px;
+    color: rgb(85, 85, 85);
+}
+
+
+/* section 3 */
+
+.f3-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.f3 {
+    width: 392px;
+    height: 679px;
+    border: 1px solid transparent;
+}
+
+.f3-link {
+    position: relative;
+    top: -15px;
+}
+
+.f3-first {
+    width: 368px;
+    height: 276px;
+    line-height: 21px;
+    text-decoration: none;
+    position: relative;
+    top: -25px;
+}
+
+.f3-background-1 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+    background-size: cover;
+}
+
+.f3-background-2 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/Social-media-hed-image-368x276.jpg");
+    background-size: cover;
+}
+
+.f3-img-text {
+    text-decoration: none;
+    line-height: 25px;
+    position: relative;
+    top: 150px;
+    padding-left: 6px;
+}
+
+.f3-img-text h3 {
+    margin: 0;
+}
+
+.f3-text {
+    padding-left: 6px;
+}
+
+.top {
+    color: rgb(209, 206, 206);
+    font-size: 14px;
+}
+
+.middle {
+    color: white;
+}
+
+.bottom {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(255, 247, 247);
+}
+
+.f3-second {
+    width: 369px;
+    height: 96px;
+    background-color: rgb(253, 221, 221);
+    position: relative;
+    top: -23px;
+}
+
+.f3-title-size {
+    width: 244px;
+    height: 19px;
+    margin: 0;
+    color: rgb(255, 68, 34);
+}
+
+.f3-text-size {
+    text-decoration: none;
+    width: 244px;
+    height: 50px;
+    margin-right: 0;
+    font-size: 14px;
+    color: rgb(255, 68, 34);
+    line-height: 5px;
+    text-align: left;
+}
+
+.f3-img {
+    float: right;
+    width: 96px;
+    height: 96px;
+    position: relative;
+    top: -55px;
+    right: 0;
+}
+
+.f3-third {
+    width: 368px;
+    height: auto;
+    background-color: rgb(238, 227, 227);
+    position: relative;
+    top: -20px;
+}
+
+.f3-third ul {
+    list-style-type: none;
+    width: 368px;
+    margin: 0;
+    padding-left: 17px;
+}
+
+.f3-third ul li::before {
+    content: "\2022";
+    color: rgb(255, 68, 34);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.f3-list {
+    width: 350px;
+    height: 50px;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: left;
+    border-bottom: 1px solid black;
 }
