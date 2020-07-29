@@ -78,7 +78,7 @@
 }
 
 .section1-1-heading {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
     letter-spacing: -0.84px;
     lighting-color: 12px;
@@ -91,27 +91,30 @@
 
 .section1-1-heading-date {
     color: #fff;
-    font-size: 17px;
-    float: right;
+    font-size: 19px;
+    font-weight: lighter;
     font-family: Georgia;
     margin-right: 11px;
-    position: relative;
-    top: 1px;
+    position: absolute;
+    left: 1000px;
+    top: 100px;
 }
 
 .section1-1-heading-title-link {
     text-decoration: none;
     color: #fff;
     position: relative;
-    top: 85px;
-    font-weight: bold;
+    top: 75px;
+    font-weight: lighter;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .section1-flex-column {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 150px;
+    top: 220px;
     padding: 5px;
 }
 
@@ -147,12 +150,72 @@
     grid-column: 1fr;
 }
 
+.section1-2-heading {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.84px;
+    lighting-color: 12px;
+    color: darkolivegreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: normal;
+    position: relative;
+    top: 88px;
+    margin-left: 6px;
+}
+
+.section1-2-heading-title-link {
+    text-decoration: none;
+    color: red;
+    position: relative;
+    top: 130px;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 6px;
+}
+
+#ces-move {
+    margin-left: 6px;
+    position: relative;
+    top: 42px;
+}
+
 .section-1-3 {
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/deepfake-ai-voice-celebrities-politicians-796x417.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid mediumspringgreen;
     column-count: 1fr;
+}
+
+.section1-3-heading {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.84px;
+    lighting-color: 12px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: normal;
+    position: relative;
+    top: 32px;
+    margin-left: 6px;
+}
+
+.section1-3-heading-title-link {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 75px;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 6px;
+}
+
+#ai {
+    margin-left: 6px;
+    position: relative;
+    bottom: 10px;
 }
 
 .section1-grid {
@@ -163,7 +226,10 @@
 
 #tnw-logo {
     width: 20%;
-    height: 1%;
+    height: 10%;
+    position: absolute;
+    top: 100px;
+    margin: 9px;
 }
 
 
@@ -364,6 +430,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
 }
 
 .f3 {
@@ -396,6 +463,41 @@
     background-size: cover;
 }
 
+.f3-background-3 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-battery-life-of-google-pixel-phones-comparison-368x276.png");
+    background-size: cover;
+}
+
+.f3-background-4 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/07/weed_tech-368x276.jpg");
+    background-size: cover;
+}
+
+.f3-background-5 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/a-female-office-worker-at-the-table-holding-papers-with-diagrams-368x276.jpg");
+    background-size: cover;
+}
+
+.f3-background-6 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/106909103_10101777330197904_2889321509499508446_o-1-368x276.jpg");
+    background-size: cover;
+}
+
+.f3-background-7 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/corona_news-6_blue-368x276.gif");
+    background-size: cover;
+}
+
+.f3-background-8 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric-368x276.png");
+    background-size: cover;
+}
+
+.f3-background-9 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/acquisition-blog-post-thisstartupannouncementdoesntexist-368x276.png");
+    background-size: cover;
+}
+
 .f3-img-text {
     text-decoration: none;
     line-height: 25px;
@@ -404,12 +506,28 @@
     padding-left: 6px;
 }
 
+.linear-gradient {
+    background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+    background-size: 100% 100%;
+    height: 540px;
+}
+
+.linear-gradient-1 {
+    background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+    background-size: 100% 100%;
+    height: 276px;
+}
+
 .f3-img-text h3 {
     margin: 0;
 }
 
 .f3-text {
     padding-left: 6px;
+}
+
+.special {
+    color: rgb(170, 168, 168) !important;
 }
 
 .top {
@@ -465,7 +583,7 @@
 .f3-third {
     width: 368px;
     height: auto;
-    background-color: rgb(238, 227, 227);
+    background-color: rgb(253, 253, 253);
     position: relative;
     top: -20px;
 }
@@ -493,4 +611,135 @@
     line-height: 19px;
     text-align: left;
     border-bottom: 1px solid black;
+}
+
+.section-4 {
+    width: auto;
+    height: 660px;
+    margin: 0;
+    padding: 0;
+}
+
+.f4-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    grid-row-gap: 10px;
+}
+
+.f4 {
+    width: 294px;
+    height: 298px;
+    border: 1px solid transparent;
+}
+
+.f4-img-1 {
+    width: 270px;
+    height: 201px;
+    background-image: url("https://cdnp2.stackassets.com/6179061a340aec6fb745648722689d80eb1f1165/store/f861de62ba66a53247f38806f00d41550a956e426fc22b7963aafc23c1b3/sale_28210_primary_image.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.f4-img-2 {
+    width: 270px;
+    height: 201px;
+    background-image: url("https://cdnp3.stackassets.com/ff35439fd6a5c9e2c5cc4514a7f1923c9ef7ea6f/store/1532b43da15553514d7d8c0215fdd0d1033614864b7071dab71a69d5335b/sale_19163_primary_image.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.f4-img-3 {
+    width: 270px;
+    height: 201px;
+    background-image: url("https://cdnp2.stackassets.com/de4a193171a0bccdb92ddba0b719f1b93831e489/store/c78e4c9dcc1128ece7d2d2d7e92fc7fb9aff2820cd9c67fce6590914d7f3/sale_31217_primary_image.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.f4-img-4 {
+    width: 270px;
+    height: 201px;
+    background-image: url("https://cdnp2.stackassets.com/fa79eee393d45817ba89d96f63c6f4432d5ccde9/store/04564b3f7fc7790d261b5fede32761ae7260732d9c6f158790db40c5bd8f/sale_31344_primary_image.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.f4-img-5 {
+    width: 270px;
+    height: 201px;
+    background-image: url("https://cdnp0.stackassets.com/a1b45c57042cdef1f1b897016cfde23589de621d/store/55c827cf0a6ce820b885872694c7271be3c3e8f89e91e59b2637a866fffa/sale_25748_primary_image.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.f4-img-6 {
+    width: 270px;
+    height: 201px;
+    background-image: url("https://cdnp3.stackassets.com/0b442829152188ef5c1de0aff7d72820282f26e0/store/73b9b30bec03d67a0c89bae3aaaddafc5a59895b1edd5194d61ab010f926/sale_20564_primary_image.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.f4-img-7 {
+    width: 270px;
+    height: 201px;
+    background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.f4-img-8 {
+    width: 270px;
+    height: 201px;
+    background-image: url("https://cdnp0.stackassets.com/458215425c39b26b83c2fee071bfc10868bbc676/store/c131e2e170c4476d94c6d2532c04a50c102b02844b726e21c1c4b2aeb4b7/sale_24981_primary_image.jpg");
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.f4-triangle {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
+    background-size: cover;
+    width: 85px;
+    height: 128px;
+    position: relative;
+    right: -186px;
+    top: -1px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.traingle-text {
+    display: block;
+    height: 80px;
+    width: 80px;
+    color: black;
+    overflow: hidden;
+    position: relative;
+    top: 18px;
+    right: 7px;
+    transform: rotate(45deg);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.f4-text {
+    line-height: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.f4-price1 {
+    color: rgb(170, 170, 170);
+    font-size: 13px;
+    margin-right: 4px;
+    text-decoration: line-through;
+}
+
+.f4-price2 {
+    color: rgb(85, 85, 85);
 }
