@@ -76,7 +76,6 @@ nav {
 .section-1-1 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/kodak-796x448.jpg");
   background-size: cover;
-  column-count: 2fr;
   grid-gap: 2px;
 }
 
@@ -84,7 +83,6 @@ nav {
   font-size: 45px;
   font-weight: 700;
   letter-spacing: -0.84px;
-  lighting-color: 12px;
   color: #fff;
   font-family: Georgia, 'Times New Roman', Times, serif;
   gap: normal;
@@ -104,7 +102,6 @@ nav {
   color: #fff;
   font-size: 19px;
   font-weight: lighter;
-  font-family: Georgia;
   margin-right: 11px;
 }
 
@@ -154,14 +151,12 @@ nav {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/CES-2021-796x417.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  grid-column: 1fr;
 }
 
 .section1-2-heading {
   font-size: 40px;
   font-weight: 700;
   letter-spacing: -0.84px;
-  lighting-color: 12px;
   color: #fff;
   font-family: Georgia, 'Times New Roman', Times, serif;
   gap: normal;
@@ -195,14 +190,12 @@ nav {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/deepfake-ai-voice-celebrities-politicians-796x417.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  column-count: 1fr;
 }
 
 .section1-3-heading {
   font-size: 40px;
   font-weight: 700;
   letter-spacing: -0.84px;
-  lighting-color: 12px;
   color: #fff;
   font-family: Georgia, 'Times New Roman', Times, serif;
   gap: normal;
@@ -339,6 +332,7 @@ nav {
 
 .f2 a {
   text-decoration: none;
+  position: relative;
 }
 
 .f2-title {
@@ -363,11 +357,6 @@ nav {
   top: 10px;
   left: 18px;
   z-index: 10;
-}
-
-.f2 a {
-  position: relative;
-  display: black;
 }
 
 .f2-seccontainer {
@@ -515,7 +504,7 @@ nav {
 }
 
 .linear-gradient {
-  background: rgba(250, 0, 0, .25) url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+  background: rgba(250, 0, 0, 0.25) url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
   background-size: 100% 100%;
   height: 544px;
 }
@@ -861,8 +850,8 @@ section {
 
 /* media querys */
 
-@media (max-width:320px) {
-  nav {
+@media (max-width: 320px) {
+ -nav {
     width: 100%;
   }
   .nav-1 {
@@ -922,7 +911,7 @@ section {
     width: 100%;
   }
   .f3-second {
-    width: 100%
+    width: 100%;
   }
   .f3 {
     width: 100%;
@@ -966,10 +955,7 @@ section {
   .media-align-1 {
     margin-top: -240px;
   }
-  .align-date {
-    display: hidden;
-  }
-  ¿ .title-deets-link {
+  .title-deets-link {
     font-size: 12px;
   }
   .media-text-size-1 {
@@ -1029,7 +1015,7 @@ section {
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   nav {
     width: 100%;
   }
@@ -1096,7 +1082,7 @@ section {
     width: 100%;
   }
   .f3-second {
-    width: 100%
+    width: 100%;
   }
   .f3 {
     width: 100%;
@@ -1143,9 +1129,6 @@ section {
   .media-align-1 {
     margin-top: -240px;
   }
-  .align-date {
-    display: hidden;
-  }
   .title-deets-link {
     font-size: 12px;
   }
@@ -1187,14 +1170,14 @@ section {
   }
 }
 
-@media (max-width:1149px) {
+@media (max-width: 1149px) {
   .main-container {
     margin: 10px 0 0 0;
   }
   .f1-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1rf 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
   }
   .f2-grid {
     display: grid;
@@ -1210,7 +1193,7 @@ section {
     width: 100%;
   }
   .f3-second {
-    width: 100%
+    width: 100%;
   }
   .f3 {
     width: 90%;
