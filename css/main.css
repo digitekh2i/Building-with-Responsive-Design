@@ -850,19 +850,23 @@ section {
 
 /* media querys */
 
-@media (max-width: 320px) {
- -nav {
+@media(max-width: 320px){
+  
+ nav {
     width: 100%;
   }
+   
   .nav-1 {
     display: none;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
   }
+  
   .nav-2 .nav-2child {
     display: none;
     width: 100%;
   }
+  
   .nav-2 .nav-img {
     margin-left: 90% !important;
   }
