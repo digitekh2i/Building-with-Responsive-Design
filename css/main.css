@@ -1014,10 +1014,25 @@ section {
     .media-align-2 {
         margin-top: -30px;
     }
-    /*
-    .media-margin-1 {
-        margin-bottom
-    }*/
+    .lower-footer {
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+    .footer-link {
+        font-size: 10px;
+        margin: 0 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    .favicons-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .footer-logo {
+        width: 15px;
+        height: 10px;
+    }
 }
 
 @media (max-width:768px) {
@@ -1230,13 +1245,18 @@ section {
         margin-top: -90px;
     }
     .section1-2-heading {
-        margin-top: 50px;
+        margin-top: -2px;
         margin-bottom: 30px;
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .media-align-title {
+        margin-bottom: 42px;
+        line-height: 34px;
     }
     .section1-3-heading {
-        font-size: 20px;
-        line-height: 20px;
-        margin-top: 50px;
+        font-size: 30px;
+        line-height: 36px;
         margin-bottom: 30px;
     }
     .media-align-2 {
