@@ -757,5 +757,19 @@
 
 /* footer section */
 
+section {
+    width: 100%;
+}
 
+.footer-section1 {
+wii    
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
 /* media querys */
