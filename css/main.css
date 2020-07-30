@@ -1041,8 +1041,6 @@ section {
   
   .footer-link {
     font-size: 10px;
-    margin: 0 0 0 0 0;
-    padding: 0 0 0 0;
   }
   
   .favicons-icon {
@@ -1056,7 +1054,6 @@ section {
     width: 15px;
     height: 10px;
   }
-  
 }
 
 @media (max-width: 768px) {
