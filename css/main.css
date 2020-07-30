@@ -851,7 +851,6 @@ section {
 /* media querys */
 
 @media (max-width: 320px) {
-  
  nav {
     width: 100%;
   }
