@@ -3,7 +3,7 @@
 
 # Building-with-Responsive-Design
 
-> This is a collaborative project that explains the essence of design using grey scale: a part of microverse HTML/CSS assignement . initiated and implemented by  Jose' and Daniel.
+> This is a collaborative project that explains the Responsive Design : a part of microverse HTML/CSS assignement . initiated and implemented by  Jose' and Daniel.
 
 ![screenshot](./images/screenshoot.png)
 
