@@ -3,6 +3,10 @@
     font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
+nav {
+    height: 80px;
+}
+
 .nav-1 {
     display: flex;
     width: 100%;
@@ -35,8 +39,7 @@
     justify-content: space-between;
     text-align: center;
     padding-top: 10px;
-    position: fixed;
-    z-index: 99;
+    border: 1px solid rgb(226, 224, 224);
 }
 
 .nav-2child {
@@ -116,7 +119,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 220px;
+    top: 175px;
     padding: 5px;
 }
 
@@ -227,8 +230,8 @@
 #tnw-logo {
     width: 20%;
     height: 10%;
-    position: absolute;
-    top: 100px;
+    position: relative;
+    top: 20px;
     margin: 9px;
 }
 
@@ -759,12 +762,18 @@
 
 /* footer section */
 
+footer {
+    width: 100%;
+}
+
 section {
     width: 100%;
 }
 
 .footer-section1 {
-wii    
+    width: 100%;
+    height: 150px;
+    border: 2px green solid;
 }
 
 .footer-box {
@@ -773,5 +782,318 @@ wii
     align-items: center;
     width: 100%;
     height: auto;
+    position: relative;
+    top: 38px;
+    border: 2px brown solid;
 }
+
+.favicons-icon {
+    width: 30%;
+    height: 30%;
+    margin-right: 20px;
+    background: #a9a9a9;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.twt-icon {
+    width: 25%;
+    height: 25%;
+    margin-right: 20px;
+    background: darkgrey;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.vid-icon {
+    width: 25%;
+    height: 25%;
+    margin-right: 20px;
+    background: darkgrey;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.gram-icon {
+    align-self: baseline;
+    width: 15%;
+    height: 15%;
+    margin-right: 20px;
+    background: darkgrey;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.rss-icon {
+    width: 25%;
+    height: 25%;
+    margin-right: 20px;
+    background: darkgrey;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.pint-icon {
+    width: 30%;
+    height: 30%;
+    margin-right: 20px;
+    background: darkgrey;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.msg-icon {
+    width: 20%;
+    height: 20%;
+    margin-right: 20px;
+    background: darkgrey;
+    border-radius: 55%;
+    margin-top: 3px;
+}
+
+.footer-nav1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
 /* media querys */
+
+@media (max-width:320px) {
+    nav {
+        width: 100%;
+    }
+    .nav-1 {
+        display: none;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    .nav-2 .nav-2child {
+        display: none;
+        width: 100%;
+    }
+    .nav-2 .nav-img {
+        margin-left: 90%;
+    }
+    .main-container {
+        margin: 10px 0 0 0;
+    }
+    .f1-grid {
+        display: block;
+    }
+    .f1-img {
+        width: 75px;
+        height: 75px;
+    }
+    .gallery-link {
+        font-size: 10px;
+        margin: 0 0 0 0;
+        text-align: left;
+    }
+    .f1-by {
+        font-size: 8px;
+    }
+    .f1-flex span {
+        font-size: 8px;
+    }
+    .f1 {
+        width: 100%;
+        height: 100px;
+    }
+    .flex {
+        display: block;
+    }
+    .link {
+        font-size: 20px;
+    }
+    .f2-grid {
+        display: block;
+    }
+    .f3-grid {
+        display: block;
+    }
+    .f3-first {
+        width: 100%;
+    }
+    .f3-second {
+        width: 100%
+    }
+    .f3 {
+        width: 100%;
+    }
+    .f3-text {
+        padding: 0 0 0 0;
+    }
+    .f3-text-size {
+        font-size: 10px;
+    }
+    .f3-third {
+        width: 100%;
+    }
+    .f3-third ul {
+        width: 100%;
+    }
+    .f3-list {
+        width: 100%;
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    .f3-title-size {
+        margin-top: -20px;
+    }
+    .f4-grid {
+        display: block;
+    }
+    .section-1 {
+        display: block;
+        margin-bottom: 100px;
+    }
+    .section-1-1 {
+        height: 200px;
+        width: 90%;
+    }
+    .section1-1-heading {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 50px;
+    }
+    .media-align-1 {
+        margin-top: -240px;
+    }
+    .section1-1-heading-date {
+        display: hidden;
+    }
+    .title-deets-link {
+        font-size: 12px;
+    }
+    .media-text-size-1 {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .icon-style {
+        width: 15px;
+        height: 15px;
+    }
+    .section-1-2 {
+        height: 200px;
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .linear-gradient-3 {
+        height: 200px;
+    }
+    .section1-2-heading {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .section-1-3 {
+        height: 200px;
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .section1-3-heading {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .media-align-2 {
+        margin-top: -30px;
+    }
+    /*
+    .media-margin-1 {
+        margin-bottom
+    }*/
+}
+
+@media (max-width:768px) {
+    nav {
+        width: 90%;
+    }
+    .nav-1 {
+        display: none;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    .nav-2 .nav-2child {
+        display: none;
+        width: 100%;
+    }
+    .nav-2 {
+        align-content: right;
+    }
+    .main-container {
+        margin: 10px 0 0 0;
+    }
+    .f1-grid {
+        display: block;
+    }
+    .f1-img {
+        width: 75px;
+        height: 75px;
+    }
+    .gallery-link {
+        font-size: 10px;
+        margin: 0 0 0 0;
+        text-align: left;
+    }
+    .f1-by {
+        font-size: 8px;
+    }
+    .f1-flex span {
+        font-size: 8px;
+    }
+    .f1-media {
+        float: right;
+    }
+    .f1 {
+        width: 90%;
+        height: 100px;
+    }
+    .flex {
+        display: block;
+    }
+    .link {
+        font-size: 20px;
+    }
+    .f2-grid {
+        display: block;
+    }
+    .f3-grid {
+        display: block;
+    }
+    .f3-first {
+        width: 90%;
+    }
+    .f3-second {
+        width: 90%
+    }
+    .f3 {
+        width: 100%;
+    }
+    .f3-text {
+        padding: 0 0 0 0;
+    }
+    .f3-text-size {
+        font-size: 10px;
+    }
+    .f3-third {
+        width: 90%;
+    }
+    .f3-third ul {
+        width: 100%;
+    }
+    .f3-list {
+        width: 90%;
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    .f3-title-size {
+        margin-top: -20px;
+    }
+    .f4-grid {
+        display: block;
+    }
+}
