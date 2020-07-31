@@ -1133,347 +1133,435 @@ section {
     top: 0;
   }
 }
+
 @media (max-width: 768px) {
-    nav {
-        width: 100%;
-    }
-    .main-container {
-        margin: 10px 0 0 0;
-    }
-    .f1-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-    .f1-img {
-        width: 100%;
-        height: 115px;
-    }
-    .gallery-link {
-        font-size: 15px;
-        margin: 0 0 0 0;
-    }
-    .f1-by {
-        font-size: 10px;
-    }
-    .f1-flex span {
-        font-size: 10px;
-    }
-    .f1 {
-        width: 90%;
-        height: 220px;
-    }
-    .flex {
-        display: block;
-    }
-    .link {
-        font-size: 20px;
-    }
-    .f2-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        margin-top: 20px;
-    }
-    .f2 {
-        width: 100%;
-    }
-    .f3-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        margin-bottom: 40px;
-    }
-    .f3-first {
-        width: 90%;
-    }
-    .f3-second {
-        width: 90%;
-    }
-    .f3 {
-        width: 90%;
-        margin-bottom: 30px;
-    }
-    .f3-text {
-        padding: 0 0 0 0;
-        font-size: 12px;
-    }
-    .f3-text-size {
-        font-size: 15px;
-    }
-    .f3-third {
-        width: 90%;
-    }
-    .f3-third ul {
-        width: 90%;
-    }
-    .f3-list {
-        width: 90%;
-        font-size: 14px;
-        padding-bottom: 5px;
-    }
-    .f3-title-size {
-        margin-top: 0;
-    }
-    .f3-img-text {
-        margin-top: 0;
-    }
-    .f4-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-    }
-    .section-1-1 {
-        height: 544px;
-        width: 100%;
-    }
-    .section1-1-heading {
-        font-size: 25px;
-        line-height: 30px;
-        margin-top: 50px;
-    }
-    .media-align-1 {
-        margin-top: 79px;
-    }
-    .title-deets-link {
-        font-size: 12px;
-    }
-    .media-text-size-1 {
-        font-size: 10px;
-        margin-top: 20px;
-    }
-    .icon-style {
-        width: 15px;
-        height: 15px;
-    }
-    .section-1-2 {
-        height: 200px;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    .linear-gradient-3 {
-        height: 270px;
-    }
-    .section1-2-heading {
-        font-size: 25px;
-        line-height: 32px;
-        margin-top: 50px;
-        margin-bottom: 30px;
-    }
-    .section-1-3 {
-        height: 264px;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    .section1-3-heading {
-        font-size: 25px;
-        line-height: 27px;
-        margin-top: 50px;
-        margin-bottom: 30px;
-    }
-    .media-align-2 {
-        margin-top: 0;
-    }
-    .align-date {
-        display: none;
-    }
-    .test {
-        padding-left: 115px;
-        padding-right: 0;
-    }
-    .test-2 {
-        padding-right: 0;
-    }
-    .nav-2child {
-        padding-left: 115px;
-        padding-right: 0;
-        font-size: 14px;
-    }
-    #tnw-logo {
-        top: -63px;
-    }
+  nav {
+    width: 100%;
+  }
+
+  .main-container {
+    margin: 10px 0 0 0;
+  }
+
+  .f1-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .f1-img {
+    width: 100%;
+    height: 115px;
+  }
+
+  .gallery-link {
+    font-size: 15px;
+    margin: 0 0 0 0;
+  }
+
+  .f1-by {
+    font-size: 10px;
+  }
+
+  .f1-flex span {
+    font-size: 10px;
+  }
+
+  .f1 {
+    width: 90%;
+    height: 220px;
+  }
+
+  .flex {
+    display: block;
+  }
+
+  .link {
+    font-size: 20px;
+  }
+
+  .f2-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 20px;
+  }
+
+  .f2 {
+    width: 100%;
+  }
+
+  .f3-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 40px;
+  }
+
+  .f3-first {
+    width: 90%;
+  }
+
+  .f3-second {
+    width: 90%;
+  }
+
+  .f3 {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .f3-text {
+    padding: 0 0 0 0;
+    font-size: 12px;
+  }
+
+  .f3-text-size {
+    font-size: 15px;
+  }
+
+  .f3-third {
+    width: 90%;
+  }
+
+  .f3-third ul {
+    width: 90%;
+  }
+
+  .f3-list {
+    width: 90%;
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+
+  .f3-title-size {
+    margin-top: 0;
+  }
+
+  .f3-img-text {
+    margin-top: 0;
+  }
+
+  .f4-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .section-1-1 {
+    height: 544px;
+    width: 100%;
+  }
+
+  .section1-1-heading {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 50px;
+  }
+
+  .media-align-1 {
+    margin-top: 79px;
+  }
+
+  .title-deets-link {
+    font-size: 12px;
+  }
+
+  .media-text-size-1 {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+  .icon-style {
+    width: 15px;
+    height: 15px;
+  }
+
+  .section-1-2 {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .linear-gradient-3 {
+    height: 270px;
+  }
+
+  .section1-2-heading {
+    font-size: 25px;
+    line-height: 32px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .section-1-3 {
+    height: 264px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .section1-3-heading {
+    font-size: 25px;
+    line-height: 27px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .media-align-2 {
+    margin-top: 0;
+  }
+
+  .align-date {
+    display: none;
+  }
+
+  .test {
+    padding-left: 115px;
+    padding-right: 0;
+  }
+
+  .test-2 {
+    padding-right: 0;
+  }
+
+  .nav-2child {
+    padding-left: 115px;
+    padding-right: 0;
+    font-size: 14px;
+  }
+
+  #tnw-logo {
+    top: -63px;
+  }
 }
 
 @media (max-width: 320px) {
-    nav {
-        width: 100%;
-    }
-    .nav-1 {
-        display: none;
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
-    }
-    .nav-2 .nav-2child {
-        display: none;
-        width: 100%;
-    }
-    .nav-2 .nav-img {
-        margin-left: 90% !important;
-    }
-    .main-container {
-        margin: 10px 0 0 0;
-    }
-    .f1-grid {
-        display: block;
-    }
-    .f1-img {
-        width: 75px;
-        height: 75px;
-    }
-    .gallery-link {
-        font-size: 10px;
-        margin: 0 0 0 0;
-        text-align: left;
-    }
-    .f1-by {
-        font-size: 8px;
-    }
-    .f1-media {
-        margin-left: 100px;
-        margin-top: -80px;
-    }
-    .f1-flex span {
-        font-size: 8px;
-    }
-    .f1 {
-        width: 100%;
-        height: 100px;
-    }
-    .flex {
-        display: block;
-    }
-    .link {
-        font-size: 20px;
-    }
-    .f2-grid {
-        display: block !important;
-    }
-    .f3-grid {
-        display: block;
-    }
-    .f3-first {
-        width: 100%;
-        font-size: 12px;
-    }
-    .f3-second {
-        width: 100%;
-        height: 75px;
-    }
-    .f3 {
-        width: 100%;
-    }
-    .f3-text {
-        padding: 0 0 0 0;
-        font-size: 10px;
-    }
-    .f3-text-size {
-        font-size: 10px;
-    }
-    .f3-img-text h3 {
-        font-size: 12px;
-    }
-    .f3-img {
-        width: 75px;
-        height: 75px;
-    }
-    .bottom {
-        font-size: 10px;
-    }
-    .f3-third {
-        width: 100%;
-    }
-    .f3-third ul {
-        width: 90%;
-    }
-    .f3-list {
-        width: 100%;
-        font-size: 10px;
-        padding-bottom: 5px;
-    }
-    .f3-title-size {
-        margin-top: -20px;
-        font-size: 12px;
-    }
-    .f4-grid {
-        display: block !important;
-    }
-    .section-1 {
-        display: block;
-        margin-bottom: 100px;
-    }
-    .section-1-1 {
-        height: 200px;
-        width: 90%;
-    }
-    .section1-1-heading {
-        font-size: 20px;
-        line-height: 20px;
-        margin-top: 50px;
-        margin-bottom: 25px;
-    }
-    .media-align-1 {
-        margin-top: -240px;
-    }
-    .title-deets-link {
-        font-size: 12px;
-    }
-    .media-text-size-1 {
-        font-size: 10px;
-        margin-top: 10px;
-    }
-    .icon-style {
-        width: 15px;
-        height: 15px;
-    }
-    .section-1-2 {
-        height: 200px;
-        width: 90%;
-        margin-bottom: 10px;
-    }
-    .linear-gradient-3 {
-        height: 200px;
-    }
-    .section1-2-heading {
-        font-size: 20px;
-        line-height: 20px;
-        margin-top: 50px;
-        margin-bottom: 30px;
-    }
-    .section-1-3 {
-        height: 200px;
-        width: 90%;
-        margin-bottom: 10px;
-    }
-    .align-date {
-        display: none;
-    }
-    .section1-3-heading {
-        font-size: 20px;
-        line-height: 20px;
-        margin-top: 50px;
-        margin-bottom: 30px;
-    }
-    .media-align-2 {
-        margin-top: -30px;
-    }
-    .lower-footer {
-        margin: 0 0 0 0;
-        text-align: center;
-    }
-    .footer-link {
-        font-size: 10px;
-    }
-    .favicons-icon {
-        width: 30px;
-        height: 30px;
-        margin-right: 5px;
-        margin-left: 5px;
-    }
-    .footer-logo {
-        width: 15px;
-        height: 10px;
-    }
-    #tnw-logo {
-        top: -75px;
-    }
+  nav {
+    width: 100%;
+  }
+
+  .nav-1 {
+    display: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  .nav-2 .nav-2child {
+    display: none;
+    width: 100%;
+  }
+
+  .nav-2 .nav-img {
+    margin-left: 90% !important;
+  }
+
+  .main-container {
+    margin: 10px 0 0 0;
+  }
+
+  .f1-grid {
+    display: block;
+  }
+
+  .f1-img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .gallery-link {
+    font-size: 10px;
+    margin: 0 0 0 0;
+    text-align: left;
+  }
+
+  .f1-by {
+    font-size: 8px;
+  }
+
+  .f1-media {
+    margin-left: 100px;
+    margin-top: -80px;
+  }
+
+  .f1-flex span {
+    font-size: 8px;
+  }
+
+  .f1 {
+    width: 100%;
+    height: 100px;
+  }
+
+  .flex {
+    display: block;
+  }
+
+  .link {
+    font-size: 20px;
+  }
+
+  .f2-grid {
+    display: block !important;
+  }
+
+  .f3-grid {
+    display: block;
+  }
+
+  .f3-first {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .f3-second {
+    width: 100%;
+    height: 75px;
+  }
+
+  .f3 {
+    width: 100%;
+  }
+
+  .f3-text {
+    padding: 0 0 0 0;
+    font-size: 10px;
+  }
+
+  .f3-text-size {
+    font-size: 10px;
+  }
+
+  .f3-img-text h3 {
+    font-size: 12px;
+  }
+
+  .f3-img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .bottom {
+    font-size: 10px;
+  }
+
+  .f3-third {
+    width: 100%;
+  }
+
+  .f3-third ul {
+    width: 90%;
+  }
+
+  .f3-list {
+    width: 100%;
+    font-size: 10px;
+    padding-bottom: 5px;
+  }
+
+  .f3-title-size {
+    margin-top: -20px;
+    font-size: 12px;
+  }
+
+  .f4-grid {
+    display: block !important;
+  }
+
+  .section-1 {
+    display: block;
+    margin-bottom: 100px;
+  }
+
+  .section-1-1 {
+    height: 200px;
+    width: 90%;
+  }
+
+  .section1-1-heading {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+
+  .media-align-1 {
+    margin-top: -240px;
+  }
+
+  .title-deets-link {
+    font-size: 12px;
+  }
+
+  .media-text-size-1 {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+
+  .icon-style {
+    width: 15px;
+    height: 15px;
+  }
+
+  .section-1-2 {
+    height: 200px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .linear-gradient-3 {
+    height: 200px;
+  }
+
+  .section1-2-heading {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .section-1-3 {
+    height: 200px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .align-date {
+    display: none;
+  }
+
+  .section1-3-heading {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .media-align-2 {
+    margin-top: -30px;
+  }
+
+  .lower-footer {
+    margin: 0 0 0 0;
+    text-align: center;
+  }
+
+  .footer-link {
+    font-size: 10px;
+  }
+
+  .favicons-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .footer-logo {
+    width: 15px;
+    height: 10px;
+  }
+
+  #tnw-logo {
+    top: -75px;
+  }
 }
