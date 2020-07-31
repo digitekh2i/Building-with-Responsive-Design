@@ -841,17 +841,11 @@ section {
 /* media querys */
 
 @media (max-width: 1149px) {
-  .f2-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-
   .media-align-title {
     margin-bottom: 42px;
     line-height: 34px;
   }
-  
+
   nav {
     width: 100%;
   }
