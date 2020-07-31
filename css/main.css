@@ -1435,6 +1435,10 @@ section {
     display: block !important;
     margin-bottom: 0;
   }
+  
+  .f2-media-hidden {
+    display: block;
+  }
 
   .f3-grid {
     display: block;
