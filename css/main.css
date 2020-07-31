@@ -1190,18 +1190,36 @@ section {
 
   .f2-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: -300px;
   }
 
   .f2-media-hidden {
-    display: block;
+    display: none;
   }
 
   .f2 {
-    width: 100%;
+    width: 249px;
+    height: 308px;
+    margin: 0;
+  }
+
+  .f2-title {
+    width: 245px;
+  }
+
+  .f2-seccontainer {
+    width: 245px;
+  }
+
+  .f2-a2 {
+    width: 245px;
+  }
+
+  .f2-a3 {
+    width: 245px;
   }
 
   .f3-grid {
@@ -1415,6 +1433,7 @@ section {
 
   .f2-grid {
     display: block !important;
+    margin-bottom: 0;
   }
 
   .f3-grid {
