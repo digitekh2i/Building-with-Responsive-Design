@@ -846,7 +846,7 @@ section {
 
 /* media */
 
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   body {
     width: 100%;
   }
@@ -1235,7 +1235,7 @@ section {
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   body {
     width: 100%;
   }
