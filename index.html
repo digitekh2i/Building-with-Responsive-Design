@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNW</title>
+    <link rel="shortcut icon" href="https://i1.sndcdn.com/avatars-000213907625-kn8vwd-original.jpg">
+    <link rel="stylesheet" href="css/main.css" >
+</head>
+<body>
+    <nav>
+        <div class="nav-1">
+            <div class="nav-1child test"> 
+                <a href="#">News</a>
+                <a href="#">Events</a>
+                <a href="#">Business</a>
+                <a href="#">AMAs</a>
+                <a href="#">Spaces</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+            <div class="nav-1child test-2">
+                <a href="#">About</a>
+                <a href="#">Advertise</a>
+                <a href="#">Jobs</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="nav-2">
+            <div class="nav-2child">
+                <a href="#">LATEST</a>
+                <a href="#">HARD FORK</a>
+                <a href="#">PLUGGED</a>
+                <a href="#">README</a>
+                <a href="#">GORWTH QUARTERS</a>
+                <a href="#">NEUTRAL</a>
+            </div >
+                
+            <div class="nav-img">
+                <a href="#"><img class="search-icon" alt="search-icon" src="data:image/png;base64,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"></a>
+            </div>
+        </div>
+    <br>
+    <br>
+    </nav>
+
+   <main>
+           <section>
+            <div class="section-1">
+                <div class="section-1-1">
+                    <div class="linear-gradient">
+                        <div>
+                            <div ><img alt="logo-pic" id="tnw-logo" src="./media/tnw.svg"></div>
+                            <div class="align-date"><span class="section1-1-heading-date">Wednesday - july-29, 2020</span></div>
+                        </div>
+                        <div class="section1-flex-column">
+                            <div class="media-align-1" ><span><a href="" class="section1-1-heading-title-link">INSIGHTS</a></span></div>
+                            <div><h2 class="section1-1-heading">Kodak, now a pharma company, expects drugs to make up for 30-40% of its future business.</h2></div>
+                            <div class="title-deets flexglue">
+                            <div><span></span><a class="title-deets-link" href="#">by David Cannellis</a></div>
+                            <div class="media-text-size-1"><img alt="time-icon" class="icon-style" src="https://img.icons8.com/material-two-tone/24/000000/wall-clock.png"/><span>3 hours ago</span></div>
+                            <div class="media-text-size-1"><img alt="day-icon" class="icon-style" src="https://img.icons8.com/small/16/000000/share.png"/>17</div>
+                        </div>
+                    </div>    
+                    </div>                
+                </div>
+                <div class="section1-grid">
+                    <div class="section-1-2">
+                       <div class="linear-gradient-2 media-align-2">
+                        <div class="media-align-title"><span><a href="" class="section1-2-heading-title-link">TECH</a></span></div>
+                        <h3 class="section1-2-heading">CES Officially goes digital in 2021.</h3>
+                        <div id="ces-move" class="title-deets flexglue">
+                            <div><span></span><a class="title-deets-link" href="#">by Rachel Kaser</a></div>
+                        <div class="media-text-size-1"><img alt="time-icon"  class="icon-style" src="https://img.icons8.com/material-two-tone/24/000000/wall-clock.png"/><span>3 hours ago</span></div>
+                        <div class="media-text-size-1"><img alt="day-icon"  class="icon-style" src="https://img.icons8.com/small/16/000000/share.png"/>12</div>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="section-1-3">
+                            <div class="linear-gradient-3 media-align-3">
+                                <div class="media-align-title"><span><a href="" class="section1-3-heading-title-link">APPS</a></span></div>
+                        <h3 class="section1-3-heading">This spooky Deepfake AI mimics dozens of celebs and politicians.</h3>
+                        <div>
+                            <div id="ai" class="title-deets flexglue">
+                            <div><span></span><a class="title-deets-link" href="#">by Mix</a></div>
+                            <div class="media-text-size-1"><img alt="time-icon"  class="icon-style" src="https://img.icons8.com/material-two-tone/24/000000/wall-clock.png"/><span>5 hours ago</span></div>
+                            <div class="media-text-size-1"><img alt="day-icon"  class="icon-style" src="https://img.icons8.com/small/16/000000/share.png"/>15</div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>                
+           </section>
+            <br>
+            <br>
+            <br>
+            <br >
+           <div class="main-container">
+                <h2 ><a class="link" href="#">Latest news ></a></h2>
+                <div class="f1-grid">
+                    <div class="f1">
+                        <a href="#"><img class="f1-img" alt="gallery-1" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/corona_news-6_blue-796x398.gif"></a>
+                        <div class="f1-media" >
+                            <h4 class="media-padding"><a class="gallery-link" href="#">Blame the neanderthals</a></h4>
+                            <div class="f1-flex media-padding"> 
+                                <span><a class="f1-by" href="#">Thomas Macaulay</a>-</span>
+                                <span>26 minutes ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f1">
+                         <a href="#"><img class="f1-img" alt="gallery-1" src="https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F07%2FUntitled-design-2020-07-28T191306.193.png&signature=3e2206e4925979890c9fb777bd23515d"></a>
+                        <div class="f1-media">
+                            <h4><a class="gallery-link" href="#">This AI turns your home videos</a></h4>
+                            <h4><a class="gallery-link" href="#">Into cute cartoons</a></h4>
+                            <div class="f1-flex"> 
+                                <span><a class="f1-by" href="#">Tristan Greene</a>-</span>
+                                <span>1 hour ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f1">
+                        <a href="#"><img class="f1-img" alt="gallery-1" src="https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F07%2Fheader-image-battery-life-of-google-pixel-phones-comparison.png&signature=fe257ec2ec800fc7197385f018df2d05"></a>
+                        <div class="f1-media">                       
+                            <h4><a class="gallery-link" href="#">We charted the battery life of</a></h4>
+                            <h4><a class="gallery-link" href="#">Google Pixel phones</a></h4>
+                            <div class="f1-flex"> 
+                                <span><a class="f1-by" href="#">Callum Booth</a>-</span>
+                                <span>4 hours ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f1">
+                        <a href="#"><img class="f1-img" alt="gallery-1" src="https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F07%2Ftencent.jpg&signature=7e77e09cba0a3d26640e1f2721751077"></a>
+                        <div class="f1-media">
+                            <h4><a class="gallery-link" href="#">Tencent's offer to buy this</a></h4>
+                            <h4><a class="gallery-link" href="#">Chinese search engine pumped Its</a></h4>
+                            <h4><a class="gallery-link" href="#">stock by 50%</a></h4>
+                            <div class="f1-flex"> 
+                                <span><a class="f1-by" href="#">David Canellis</a>-</span>
+                                <span>6 hours ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f1">
+                        <a href="#"><img class="f1-img" alt="gallery-1" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Analogue-Pocket-796x417.jpg"></a>
+                        <div class="f1-media">
+                            <h4><a class="gallery-link" href="#">Analogue's retro handheld Pocket</a></h4>
+                            <h4><a class="gallery-link" href="#">won't ship until 2021</a></h4>
+                            <div class="f1-flex"> 
+                                <span><a class="f1-by" href="#">Reachel Kaser</a>-</span>
+                                <span>32 minutes ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f1">
+                        <a href="#"><img class="f1-img" alt="gallery-1" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/07/weed_tech-796x417.jpg"></a>
+                        <div class="f1-media">
+                            <h4><a class="gallery-link" href="#">Scientist modified a strain of</a></h4>
+                            <h4><a class="gallery-link" href="#">cannabis to kill cancer cells</a></h4>
+                            <div class="f1-flex"> 
+                                <span><a class="f1-by" href="#">Tristan Greene</a>-</span>
+                                <span>18 minutes ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f1">
+                         <a href="#"><img class="f1-img" alt="gallery-1" src="https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F07%2FUntitled-design-2020-07-28T145238.994.png&signature=7510a610d50d85abc561a0361273e805"></a>
+                        <div class="f1-media">
+                            <h4><a class="gallery-link" href="#">TikTok owner ByteDance's AI chief</a></h4>
+                            <h4><a class="gallery-link" href="#">to leave as US pressure rises</a></h4>
+                            <div class="f1-flex"> 
+                                <span><a class="f1-by" href="#">Thomas Macualay</a>-</span>
+                                <span>7 hours ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f1">
+                         <a href="#"><img class="f1-img" alt="gallery-1" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/CES-2021-796x417.jpg"></a>
+                        <div class="f1-media">
+                            <h4><a class="gallery-link" href="#">CES officially goes fully digital in</a></h4>
+                            <h4><a class="gallery-link" href="#">2021</a></h4>
+                            <div class="f1-flex"> 
+                                <span><a class="f1-by" href="#">Rachel Kaser</a>-</span>
+                                <span>5 hours ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <h2 ><a class="link" href="#">Latest funding rounds on Index.co ></a></h2>
+                    <div class="flex" >
+                        <a class="link-2" href="#">See more</a>
+                        <a class="link-2 link-m" href="#">Get updates by email</a>
+                        <a class="link-2" href="#">Add info</a>
+                    </div>
+                </div>
+                <div class="f2-grid">
+                    <div class="f2">
+                         <div class="f2 align">
+                            <a href="#">
+                                <img class="f2-img" alt="index.co-1" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1151910420153634816%2FyoXUoBoD.jpg&signature=97312c920cd4622057d67c8186144f09">
+                                <h4 class="f2-title">Density</h4>
+                                <div class="f2-seccontainer">
+                                    <h4 class="f2-text1">$51M</h4>
+                                    <h5 class="f2-text2">SERIES C</h5>
+                                </div>
+                            
+                            </a>
+                            <div class="f2-a2">
+                                <div class="flex-1">
+                                    <a href="#"><img class="f2-icon f2-txtalign" alt="book-icon" src="https://cdn4.iconfinder.com/data/icons/bookmarks-tags-5/66/bookmark__book__favorite__tag__ribbon-512.png"></a>
+                                    <span class="f2-txtalign">Technology</span>
+                               </div>
+                               <div class="flex-1">
+                                    <a href="#"><img alt="icon" class="f2-icon f2-txtalign" src="https://www.freeiconspng.com/uploads/job-icon-black-career-case-job-icon-14.png"></a>
+                                    <span class="f2-txtalign">Balderton Capital, +2</span>
+                                </div>
+                            </div>
+                            <div class="f2-a3">
+                                <span class="f2-textarea">Comply Advantage raises $50m Series C</span>
+                                <span class="f2-textarea">On UKTN (UK Tech News)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f2">
+                         <div class="f2 align">
+                            <a href="#">
+                                <img class="f2-img" alt="index.co-1" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F991418210246250496%2FGuQrQ6vW.jpg&signature=bdea841007dc302efedbc805664d921d">
+                                <h4 class="f2-title">Edifices</h4>
+                                <div class="f2-seccontainer">
+                                    <h4 class="f2-text1">$150M</h4>
+                                    <h5 class="f2-text2">SERIES A</h5>
+                                </div>
+                            
+                            </a>
+                            <div class="f2-a2">
+                                <div class="flex-1">
+                                    <a href="#"><img class="f2-icon f2-txtalign" alt="book-icon" src="https://cdn4.iconfinder.com/data/icons/bookmarks-tags-5/66/bookmark__book__favorite__tag__ribbon-512.png"></a>
+                                    <span class="f2-txtalign">Health Care</span>
+                               </div>
+                               <div class="flex-1">
+                                    <a href="#"><img alt="icon" class="f2-icon f2-txtalign" src="https://www.freeiconspng.com/uploads/job-icon-black-career-case-job-icon-14.png"></a>
+                                    <span class="f2-txtalign">TA Associates</span>
+                                </div>
+                            </div>
+                            <div class="f2-a3">
+                                <span class="f2-textarea">Seattle-area healthcare sortware company</span>
+                                <span class="f2-textarea">Edifecs lands  private  equity  invertment  </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f2">
+                         <div class="f2 align">
+                            <a href="#">
+                                <img class="f2-img" alt="index.co-1" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1126501379462160385%2FIT6gc1V4.jpg&signature=29fcf3b022d1e158303a6bcbf6bf971d">
+                                <h4 class="f2-title">StellarAlgo</h4>
+                                <div class="f2-seccontainer">
+                                    <h4 class="f2-text1">$1.5M</h4>
+                                    <h5 class="f2-text2">SEED FOUND</h5>
+                                </div>
+                            
+                            </a>
+                            <div class="f2-a2">
+                                <div class="flex-1">
+                                    <a href="#"><img class="f2-icon f2-txtalign" alt="book-icon" src="https://cdn4.iconfinder.com/data/icons/bookmarks-tags-5/66/bookmark__book__favorite__tag__ribbon-512.png"></a>
+                                    <span class="f2-txtalign">Entertainment</span>
+                               </div>
+                               <div class="flex-1">
+                                    <a href="#"><img alt="icon" class="f2-icon f2-txtalign" src="https://www.freeiconspng.com/uploads/job-icon-black-career-case-job-icon-14.png"></a>
+                                    <span class="f2-txtalign">Accelerate Fund</span>
+                                </div>
+                            </div>
+                            <div class="f2-a3">
+                                <span class="f2-textarea">StellarAlgo closes $1.5 million to help</span>
+                                <span class="f2-textarea">sports, live audience sector better engage</span>
+                                <span class="f2-textarea">with fans on BetaKit</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f2 f2-media-hidden">
+                         <div class="f2 align">
+                            <a href="#">
+                                <img class="f2-img" alt="index.co-1" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1088748441000235009%2FfeEWEPfK.jpg&signature=5df470d9bd2aa2aac19a75a07a8b9f61">
+                                <h4 class="f2-title">Hevo</h4>
+                                <div class="f2-seccontainer">
+                                    <h4 class="f2-text1">$8M</h4>
+                                    <h5 class="f2-text2">SERIES A</h5>
+                                </div>
+                            
+                            </a>
+                            <div class="f2-a2">
+                                <div class="flex-1">
+                                    <a href="#"><img class="f2-icon f2-txtalign" alt="book-icon" src="https://cdn4.iconfinder.com/data/icons/bookmarks-tags-5/66/bookmark__book__favorite__tag__ribbon-512.png"></a>
+                                    <span class="f2-txtalign">Big data</span>
+                               </div>
+                               <div class="flex-1">
+                                    <a href="#"><img alt="icon" class="f2-icon f2-txtalign" src="https://www.freeiconspng.com/uploads/job-icon-black-career-case-job-icon-14.png"></a>
+                                    <span class="f2-txtalign">TA Associates</span>
+                                </div>
+                            </div>
+                            <div class="f2-a3">
+                                <span class="f2-textarea">Spoonjoy co-founders'SaaS startup Hevo</span>
+                                <span class="f2-textarea">Data snags Series A cheque </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="f3-grid">
+                    <div class="f3">
+                        <h2 ><a class="link f3-link" href="#">Hard Fork ></a></h2>
+                        <div class="f3-first f3-background-1 ">
+                            <div class="linear-gradient-1">
+                                <a href="#" class="f3-img-text" >
+                                    <span class="f3-text top">MOST POPULAR</span>
+                                    <h3 class="f3-text middle">Satoshi Nakaboto: 'Grayscale exceeds $5B in Bitcoin under managment'</h3>
+                                    <span class="f3-text bottom">Satoshi Nakaboto - 6 hours ago</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="f3-second">
+                            <h5 class="f3-title-size f3-text">LATEST</h5>
+                            <a href="#" class="f3-text-size ">
+                               <strong><span class="f3-text" >TransferWise just let insiders dump </span><br>
+                                <span class="f3-text" >$319M in company stock - and</span><br>
+                                <span class="f3-text"> Draper Esprit cashed in big</span></strong> 
+                            </a>
+                            <img class="f3-img" alt="image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/transferwise.jpg">
+                        </div>
+                        <div class="f3-third">
+                            <ul>
+                                <li class="f3-list">Satoshi Nakaboto: 'Graysacle exceeds $5B in Bitcoin under managment</li>
+                                <li class="f3-list">Kodak, now a pharma company, expects drugs to make up 30-40% fo its future business</li>
+                                <li class="f3-list">Tencent's offer to buy this Chinese search engine pumped its stock by 50%</li>
+                                <li class="f3-list">Satoshi Nakaboto: ‘Bitcoin hits $11,000 as it surges 11% in a day’</li>
+                                <li class="f3-list">Intel lost $42B in market value after revealing it might not make its own next-gen chipsets</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="f3">
+                        <h2 ><a class="link f3-link" href="#">Apps ></a></h2>
+                        <div class="f3-first f3-background-2 ">
+                            <div class="linear-gradient-1">
+                                <a href="#" class="f3-img-text" >
+                                    <span class="f3-text top ">MOST POPULAR</span>
+                                    <h3 class="f3-text middle ">How ti change your name on Facebook, Twitter, and other socual media platforms</h3>
+                                    <span class="f3-text bottom ">Callum Booth - 1 day ago</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="f3-second">
+                            <h5 class="f3-title-size f3-text">LATEST</h5>
+                            <a href="#" class="f3-text-size ">
+                               <strong><span class="f3-text" >Graphic novls are the ideal </span><br>
+                                <span class="f3-text" >medium to get through these</span><br>
+                                <span class="f3-text" >trouble times</span></strong> 
+                            </a>
+                            <img class="f3-img" alt="image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Screenshot-2020-07-29-at-16.14.35.png">
+                        </div>
+                        <div class="f3-third">
+                            <ul>
+                                <li class="f3-list">AP journalists will exclusively use Sony cameras from now on</li>
+                                <li class="f3-list">Android 11 is codenamed Red Velvet Cake — but Google won't call it that</li>
+                                <li class="f3-list">48 hours with Zephyr, the anti-sweaty-hands gaming mouse</li>
+                                <li class="f3-list">The OnePlus Buds sound great at $79, but they just don't fit my ears</li>
+                                <li class="f3-list">Nikon's $1,399 Z5 is an affordable full-frame mirrorless camera — with some compromises</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="f3">
+                        <h2 ><a class="link f3-link" href="#">Gear ></a></h2>
+                        <div class="f3-first f3-background-3 ">
+                            <div class="linear-gradient-1">
+                                <a href="#" class="f3-img-text" >
+                                    <span class="f3-text top ">MOST POPULAR</span>
+                                    <h3 class="f3-text middle ">We charted the battery life od Google Picel phones</h3>
+                                    <span class="f3-text bottom ">Callum Booth - 1 day ago</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="f3-second">
+                            <h5 class="f3-title-size f3-text">LATEST</h5>
+                            <a href="#" class="f3-text-size ">
+                               <strong><span class="f3-text" >TransferWise just let insiders dump </span><br>
+                                <span class="f3-text" >$319M in company stock - and</span><br>
+                                <span class="f3-text"> Draper Esprit cashed in big</span></strong> 
+                            </a>
+                            <img class="f3-img" alt="image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-graphic-novels-comics-lockdown-covid.png">
+                        </div>
+                        <div class="f3-third">
+                            <ul>
+                                <li class="f3-list">Satoshi Nakaboto: 'Graysacle exceeds $5B in Bitcoin under managment</li>
+                                <li class="f3-list">Kodak, now a pharma company, expects drugs to make up 30-40% fo its future business</li>
+                                <li class="f3-list">Tencent's offer to buy this Chinese search engine pumped its stock by 50%</li>
+                                <li class="f3-list">Satoshi Nakaboto: ‘Bitcoin hits $11,000 as it surges 11% in a day’</li>
+                                <li class="f3-list">Intel lost $42B in market value after revealing it might not make its own next-gen chipsets</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="f3">
+                        <h2 ><a class="link f3-link" href="#">Teach ></a></h2>
+                        <div class="f3-first f3-background-4 ">
+                            <div class="linear-gradient-1">
+                                <a href="#" class="f3-img-text" >
+                                    <span class="f3-text top ">MOST POPULAR</span>
+                                    <h3 class="f3-text middle ">Scientist modified a strain of cannabis to kill cancer cells</h3>
+                                    <span class="f3-text bottom ">Tristan Greene - 17 hours ago</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="f3-second">
+                            <h5 class="f3-title-size f3-text">LATEST</h5>
+                            <a href="#" class="f3-text-size ">
+                               <strong><span class="f3-text" >How to bulid interactive data</span><br>
+                                <span class="f3-text" >visualizations using Plotiy and</span><br>
+                                <span class="f3-text"> Python</span></strong> 
+                            </a>
+                            <img class="f3-img" alt="image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/1-13.jpg">
+                        </div>
+                        <div class="f3-third">
+                            <ul>
+                                <li class="f3-list">Most mobile apps suck - here's how to fix them</li>
+                                <li class="f3-list">How to trick deep learning  algorithms into doing new things</li>
+                                <li class="f3-list">A look at the best new features in Python 3.9</li>
+                                <li class="f3-list">Scientist modified a strain of cannabis to kill cancer cells</li>
+                                <li class="f3-list">CES officially goes fully digital in 2021</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="f3">
+                        <h2 ><a class="link f3-link" href="#">Creative ></a></h2>
+                        <div class="f3-first f3-background-5 ">
+                            <div class="linear-gradient-1">
+                                <a href="#" class="f3-img-text" >
+                                    <span class="f3-text top ">MOST POPULAR</span>
+                                    <h3 class="f3-text middle ">Why you need Design Thinking and Proofs of Concepts to level up your business</h3>
+                                    <span class="f3-text bottom ">Andrea Hack - 2 hours ago</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="f3-second">
+                            <h5 class="f3-title-size f3-text">LATEST</h5>
+                            <a href="#" class="f3-text-size ">
+                               <strong><span class="f3-text" >How an AI graphic designer</span><br>
+                                <span class="f3-text" >convinced clients it was human</span><br>
+                                </strong> 
+                            </a>
+                            <img class="f3-img" alt="image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-2020-07-16T172150.239.png">
+                        </div>
+                        <div class="f3-third">
+                            <ul>
+                                <li class="f3-list">The ilustrator celebrates analog photography by drawing classics flim cameras</li>
+                                <li class="f3-list">Amazon is making a Fallout TV show with Westworld's creators</li>
+                                <li class="f3-list">There's an actual science to good intragram photos</li>
+                                <li class="f3-list">The CSS library makes it easy to design Windows XP-inspired UIs</li>
+                                <li class="f3-list">This AI wrote such emo lycros that humans thought it was My Chemical Romance</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="f3">
+                         <h2 ><a class="link f3-link" href="#">Podium ></a></h2>
+                        <div class="f3-first f3-background-6 ">
+                            <div class="linear-gradient-1">
+                                <a href="#" class="f3-img-text" >
+                                    <span class="f3-text top ">MOST POPULAR</span>
+                                    <h3 class="f3-text middle ">Teach in Latin America: An entrepreneur's guide to Junes's startup news</h3>
+                                    <span class="f3-text bottom ">COnrgad Egusa - 12 days ago</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="f3-second">
+                            <h5 class="f3-title-size f3-text">LATEST</h5>
+                            <a href="#" class="f3-text-size ">
+                               <strong><span class="f3-text" >4 ways to improve your latest  </span><br>
+                                <span class="f3-text" >product's landing page to</span><br>
+                                <span class="f3-text" >guarantee conversation</span></strong> 
+                            </a>
+                            <img class="f3-img" alt="image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Featured-Image-The-Next-Web.jpg">
+                        </div>
+                        <div class="f3-third">
+                            <ul>
+                                <li class="f3-list">Why our laws can't protect me form my digital stalker</li>
+                                <li class="f3-list">Tech in Latin America: An entrepreneur's guide to May's startup news</li>
+                                <li class="f3-list">Coming out trans in tech: An entrepreneur's experience</li>
+                                <li class="f3-list">An entrepreneur's guide to COVID-19 tech news in May</li>
+                                <li class="f3-list">Why Gary Vaynerchuk's 12 hour TikTok telethon reveled a gentler side</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="f3">
+                        <h2 ><a class="link f3-link" href="#">Insights ></a></h2>
+                        <div class="f3-first f3-background-7 ">
+                            <div class="linear-gradient-1">
+                                <a href="#" class="f3-img-text" >
+                                    <span class="f3-text top ">MOST POPULAR</span>
+                                    <h3 class="f3-text middle ">Blame the neanderthals</h3>
+                                    <span class="f3-text bottom  ">Tristan Greene - 20 hours ago</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="f3-second">
+                            <h5 class="f3-title-size f3-text">LATEST</h5>
+                            <a href="#" class="f3-text-size ">
+                               <strong><span class="f3-text" >How to watch today's antitrust  </span><br>
+                                <span class="f3-text" >hearing against Amazon, Apple,</span><br>
+                                <span class="f3-text" >Facebook, and Google</span></strong> 
+                            </a>
+                            <img class="f3-img" alt="image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Apple-Amazon-Facebook-Google-hed.jpg">
+                        </div>
+                        <div class="f3-third">
+                            <ul>
+                                <li class="f3-list">TranferWise jusy let insiders dump $319M in company stock - and Draper Espirit crashed in big</li>
+                                <li class="f3-list">Satoshi Nakaboto: 'Graysacle exceeds $5B in Bitcoin under management</li>
+                                <li class="f3-list">Pants or no pants? Tips for virtual job interviews from home</li>
+                                <li class="f3-list">Blame the neanderthals</li>
+                                <li class="f3-list">Kodak, now a pharma company, expects drugs to make up 30-40% fo its future business</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="f3">
+                        <h2 ><a class="link f3-link" href="#">Launch ></a></h2>
+                        <div class="f3-first f3-background-8 ">
+                            <div class="linear-gradient-1">
+                                <a href="#" class="f3-img-text" >
+                                    <span class="f3-text top  ">MOST POPULAR</span>
+                                    <h3 class="f3-text middle ">How you can watch BNW unveil its hotly anticipated iX3 EV next week</h3>
+                                    <span class="f3-text bottom  ">Matthew Beedham - 19 days ago</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="f3-second">
+                            <h5 class="f3-title-size f3-text">LATEST</h5>
+                            <a href="#" class="f3-text-size ">
+                               <strong><span class="f3-text" >Facenook takes another stab at  </span><br>
+                                <span class="f3-text" >henabling'free' mobile web acces</span><br>
+                                <span class="f3-text" >with its new Discover app</span></strong> 
+                            </a>
+                            <img class="f3-img" alt="image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Facebook-Discover.jpg">
+                        </div>
+                        <div class="f3-third">
+                            <ul>
+                                <li class="f3-list">Facebook-backed Realiance Jio pilots basic grocery ordering service on WahtsApp </li>
+                                <li class="f3-list">Google's coronavirus information site is now live</li>
+                                <li class="f3-list">The hyper-compact Microlino 2.0Ev is almost too cute foor words</li>
+                                <li class="f3-list">TNW announces Nwural: A blog for humans-centric AI news and analysis</li>
+                                <li class="f3-list">PSA: Amazon Fresh grocery deliveries are now free to US Prime members</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div class="f3">
+                        <h2 ><a class="link f3-link" href="#">Distract ></a></h2>
+                        <div class="f3-first f3-background-9 ">
+                            <div class="linear-gradient-1">
+                                <a href="#" class="f3-img-text" >
+                                    <span class="f3-text top  ">MOST POPULAR</span>
+                                    <h3 class="f3-text middle ">This AI generates hilariously realistic startup acquisitions announcements</h3>
+                                    <span class="f3-text bottom  ">Mix - 1 days ago</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="f3-second">
+                            <h5 class="f3-title-size f3-text">LATEST</h5>
+                            <a href="#" class="f3-text-size ">
+                               <strong><span class="f3-text" >Legend of Korra coming to Netflix </span><br>
+                                <span class="f3-text" >after Avatar's runaway success</span><br>
+                                </strong> 
+                            </a>
+                            <img class="f3-img" alt="image" src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Legend-of-Korra.jpg">
+                        </div>
+                        <div class="f3-third">
+                            <ul>
+                                <li class="f3-list">This annoying Call of Duty: Warzone bug is absolutley killing me </li>
+                                <li class="f3-list">Ghost of Tsushima is samurai Assassin's Creed - and not much else</li>
+                                <li class="f3-list">Call of Duty glitch lets Warzone trickseters gain unfair advantage against rivals</li>
+                                <li class="f3-list">We did the math: iPhone screen sizes ARE bigger now</li>
+                                <li class="f3-list">Watch Tesla's meteoric rise - set to techno-remixed Elon Musk Tweets</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div> 
+                    <div class="flex">
+                        <h2 ><a class="link" href="#">Latest deals ></a></h2>
+                        <a class="link-2" href="#">See all Details</a>
+                    </div>
+                    <div class="f4-grid">
+                        <div class="f4">
+                            <div class="f4-img-1">
+                                <div class="f4-triangle">
+                                    <div class="traingle-text">100% OFF </div>
+                                </div>
+                            </div>
+                            <div class="f4-media-position">
+                                <div>
+                                    <a href="#" class="f4-text">FREE: Leadership & Managment Diploma 4-Week Course</a><br> 
+                                    <span class="f4-price1">$49</span><span class="f4-price2">$0</span>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="f4">
+                            <div class="f4-img-2">
+                                <div class="f4-triangle">
+                                    <div class="traingle-text">95% OFF </div>
+                                </div>
+                            </div>
+                            <div class="f4-media-position">
+                                <div>
+                                    <a href="#" class="f4-text">VPN By VeePN: Lifetime <br>Subscription</a><br>
+                                    <span class="f4-price1">$659</span><span class="f4-price2">$29.99</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f4">
+                            <div class="f4-img-3">
+                                <div class="f4-triangle">
+                                    <div class="traingle-text">75% OFF </div>
+                                </div>
+                            </div>
+                            <div class="f4-media-position">
+                                <div>
+                                    <a href="#" class="f4-text">The Award-Winning Luminar 4 <br>Bundle</a><br>
+                                    <span class="f4-price1">$239</span><span class="f4-price2">$59</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f4">
+                            <div class="f4-img-4">
+                                <div class="f4-triangle">
+                                    <div class="traingle-text">96% OFF </div>
+                                </div>
+                            </div>
+                            <div class="f4-media-position">
+                                <div>
+                                    <a href="#" class="f4-text">The Complete 2020 Cloud <br>Fundation Certification Bundle</a><br>
+                                    <span class="f4-price1">$1180</span><span class="f4-price2">$49.99</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f4">
+                            <div class="f4-img-5">
+                                <div class="f4-triangle">
+                                    <div class="traingle-text">98% OFF </div>
+                                </div>
+                            </div>
+                            <div class="f4-media-position">
+                                <div>
+                                    <a href="#" class="f4-text">The Complete 2020 Microsoft<br>Azure Certification Prep Bundle</a><br>
+                                    <span class="f4-price1">$1839</span><span class="f4-price2">$39</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f4">
+                            <div class="f4-img-6">
+                                <div class="f4-triangle">
+                                    <div class="traingle-text">80% OFF </div>
+                                </div>
+                            </div>
+                            <div class="f4-media-position">
+                                <div>
+                                    <a href="#" class="f4-text">KeepSolid VPN Unlimited: Lifetime<br>Subscription</a><br>
+                                    <span class="f4-price1">$199</span><span class="f4-price2">$39</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f4">
+                             <div class="f4-img-7">
+                                <div class="f4-triangle">
+                                    <div class="traingle-text">96% OFF </div>
+                                </div>
+                            </div>
+                            <div class="f4-media-position">
+                                <div>
+                                    <a href="#" class="f4-text">StackSkills Unlimited: Lifetime<br>Access</a><br>
+                                    <span class="f4-price1">$1495</span><span class="f4-price2">$59</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f4">
+                            <div class="f4-img-8">
+                                <div class="f4-triangle">
+                                    <div class="traingle-text">100% OFF </div>
+                                </div>
+                            </div>
+                            <div class="f4-media-position">
+                                <div>
+                                    <a href="#" class="f4-text">Cogsworth Solo Plan<br>Subscription: 3-MOnts Free Trial<br>Subscription</a><br>
+                                    <span class="f4-price1">$27</span><span class="f4-price2">$0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+   </main>
+    <footer>
+        <div class="footer-section1">
+            <div class="footer-box">
+                <br>
+                <div class="footer-nav1">
+                    <span class="favicons-icon"><a href=""><img src="./images/facebook.png" alt="facebook-icon"></a></span>
+                    <span class="favicons-icon"><a href=""><img src="./images/icons8-twitter-24.png" alt="twit-icon"></a></span>
+                    <span class="favicons-icon"><a href=""><img src="./images/icons8-video-24.png" alt="video-icon"></a></span>
+                    <span class="favicons-icon"><a href=""><img src="./images/icons8-instagram.png" alt="ig-icon"></a></span>
+                    <span class="favicons-icon"><a href=""><img src="./images/icons8-pinterest-24.png" alt="pint-icon"></a></span>
+                    <span class="favicons-icon"><a href=""><img src="./images/icons8-rss-24.png" alt="rss-icon"></a></span>
+                    <span class="favicons-icon"><a href=""><img src="./images/mail.png" alt="mail-icon"></a></span>
+                </div>
+                <div class="footer-nav2">
+                    <div><a class="footer-link" href="">EVENTS</a></div>
+                    <div><a class="footer-link" href="">ABOUT</a></div>
+                    <div><a class="footer-link" href="">ADVERTISE</a></div>
+                    <div><a class="footer-link" href="">JOBS</a></div>
+                    <div><a class="footer-link" href="">CONTACTS</a></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-section2">
+            <div class="footer-box2">
+                <div class="lower-footer">
+                    <a href=""><img class="footer-logo" src="./media/tnw.svg" alt=""></a>
+                    <span class="footer-p">&copy; 2006-2020 The Next Web B.V Made with love in Amsterdam </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
